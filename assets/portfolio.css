@@ -1,0 +1,165 @@
+*{
+    font-family: "Outfit", sans-serif;
+}
+
+body{
+    color: aliceblue;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1500px;
+    height: 850px;
+    width: 1300px;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.main{
+    background-color: rgb(45, 44, 44);
+    width: 940px;
+    height: 1050px;
+    padding: 25px;
+    border-radius: 50px;
+    float: right;
+}
+
+.fixed{
+    background-color: rgb(45, 44, 44);
+    width: 250px;
+    height: 650px;
+    padding: 25px;
+    border-radius: 50px;
+    position: fixed;
+}
+
+#photo{
+    border-radius: 50px;
+    width: 80%;
+    justify-content: center;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.name{
+    width: 100%;
+    height:40% ;
+}
+
+#name{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 300;
+}
+
+#proffession{
+    background-color: rgb(60, 59, 59);
+    border: none;
+    font-size: 15px;
+    color: antiquewhite;
+    padding: 8px 15px;
+    border-radius: 8px;
+    display: block;
+    justify-content: center;
+    margin: auto;
+}
+
+.fixed-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.my-info{
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+}
+
+.icon{
+    width: 40px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.258);
+    border-radius: 15px;
+}
+
+h5{
+    font-size: 10px;
+    padding: 0;
+}
+
+.mail{
+    line-height: 1px;
+    width: 500px;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: beige;
+}
+
+.social-accounts{
+    display: flex;
+    margin: auto;
+    gap: 15px;
+    justify-content: center;
+}
+
+.social-accounts img{
+    width: 25px;
+    background-color: rgb(19, 16, 16);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav ul li a{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    color: rgba(240, 248, 255, 0.582);
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    float: right;
+    padding: 14px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+#head1{
+    font-size: 35px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#head1::after {
+    content: "";
+    left: 0;
+    bottom: 0;
+    padding-bottom: 7px;
+    position: absolute;
+    width: 40px;
+    border-bottom: 5px solid saddlebrown;
+}
+
+#about{
+    color: rgba(240, 248, 255, 0.582);
+}
+
+

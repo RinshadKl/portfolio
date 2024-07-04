@@ -1,0 +1,286 @@
+*{
+    font-family: "Outfit", sans-serif;
+}
+
+body{
+    color: aliceblue;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1500px;
+    height: 850px;
+    width: 1300px;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.main{
+    overflow-y: scroll;
+    background-color: rgb(45, 44, 44);
+    width: 940px;
+    height: 1380px;
+    padding: 25px;
+    border-radius: 50px;
+    float: right;
+}
+
+.main::-webkit-scrollbar{
+    display: none;
+}
+
+.fixed{
+    background-color: rgb(45, 44, 44);
+    width: 250px;
+    height: 650px;
+    padding: 25px;
+    border-radius: 50px;
+    position: fixed;
+}
+
+#photo{
+    border-radius: 50px;
+    width: 80%;
+    justify-content: center;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.name{
+    width: 100%;
+    height:40% ;
+}
+
+#name{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 300;
+}
+
+#proffession{
+    background-color: rgb(60, 59, 59);
+    border: none;
+    font-size: 15px;
+    color: antiquewhite;
+    padding: 8px 15px;
+    border-radius: 8px;
+    display: block;
+    justify-content: center;
+    margin: auto;
+}
+
+.fixed-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.my-info{
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+}
+
+.icon{
+    width: 40px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.258);
+    border-radius: 15px;
+}
+
+h5{
+    font-size: 10px;
+    padding: 0;
+}
+
+.mail{
+    line-height: 1px;
+    width: 500px;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: beige;
+}
+
+.social-accounts{
+    display: flex;
+    margin: auto;
+    gap: 15px;
+    justify-content: center;
+}
+
+.social-accounts img{
+    width: 25px;
+    background-color: rgb(19, 16, 16);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav ul li a{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    color: rgba(240, 248, 255, 0.582);
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    float: right;
+    padding: 14px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+#head1{
+    font-size: 35px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#head1::after {
+    content: "";
+    left: 0;
+    bottom: 0;
+    padding-bottom: 7px;
+    position: absolute;
+    width: 40px;
+    border-bottom: 5px solid saddlebrown;
+}
+
+#about{
+    color: rgba(240, 248, 255, 0.582);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+#timeline {
+    position: relative;
+    width: 70px;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 72px;    
+    text-align: center;
+}
+
+.icon {
+    background-color: #2c2c2c;
+    border-radius:60px;
+    padding: 10px;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+    background-color: #3f3c2a;
+    padding: 10px 10px;
+    border-radius: 50px;
+}
+
+.line {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    width: 2px;
+    height: 200px;
+    background-color: #333;
+    transform: translateX(-50%);
+}
+
+.dot {
+    background-color: #3f3c2a;
+    border: 5px solid #0a0909;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+.content{
+    width: 80%;
+    float: right;
+}
+
+.resume-body{
+    display: flex;
+}
+
+.education{
+    max-width: 940px;
+    margin-top: 31px;
+    line-height: 16px;
+}
+
+.skills-container {
+    width: 100%;
+    max-width: 940px;
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.336);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.skill {
+    margin-bottom: 15px;
+}
+
+.skill p {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 5px;
+    font-size: 1.1em;
+}
+
+.skill-bar {
+    background-color: #1d1a1a;
+    border-radius: 10px;
+}
+
+.skill-level {
+    height: 10px;
+    background-color: #f0a500;
+    border-radius: 5px 0 0 5px;
+}
+
+#skill-level1{
+    width: 80%;
+}
+
+#skill-level2{
+    width: 70%;
+}
+
+#skill-level3{
+    width: 90%;
+}
+
+#skill-level4{
+    width: 50%;
+}
