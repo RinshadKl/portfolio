@@ -19,22 +19,17 @@ body{
     margin-top: 80px;
 }
 
-.main{
-    background-color: rgb(45, 44, 44);
-    width: 940px;
-    height: 1050px;
-    padding: 25px;
-    border-radius: 50px;
-    float: right;
-}
-
 .fixed{
     background-color: rgb(45, 44, 44);
     width: 250px;
-    height: 650px;
+    height:760px;
     padding: 25px;
     border-radius: 50px;
     position: fixed;
+}
+
+#codewithsadee{
+    text-align: center;
 }
 
 #photo{
@@ -73,6 +68,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
+    max-width: 940px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -95,7 +91,7 @@ h5{
     padding: 0;
 }
 
-.mail{
+.details{
     line-height: 1px;
     width: 500px;
 }
@@ -118,6 +114,20 @@ a{
     background-color: rgb(19, 16, 16);
     padding: 10px;
     border-radius: 10px;
+}
+
+.main{
+    overflow-y: scroll;
+    background-color: rgb(45, 44, 44);
+    width: 940px;
+    height: 1380px;
+    padding: 25px;
+    border-radius: 50px;
+    float: right;
+}
+
+.main::-webkit-scrollbar{
+    display: none;
 }
 
 nav ul li a{
@@ -160,4 +170,65 @@ nav ul {
 
 #about{
     color: rgba(240, 248, 255, 0.582);
+}
+
+/*/ blog /*/
+
+.blog-cards-section{
+    max-width: 940px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin: auto;
+}
+
+.blog-card{
+    height: 450px;
+    background-color: rgb(32, 34, 34);
+    width: 45%;
+    border-radius: 30px;
+    text-align: initial;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.blog-card img{
+    height: 60%;
+    width: 98%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.blog-card img:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+    filter: brightness(0.9);
+}
+
+.blog-card-info{
+    margin: 20px;
+}
+
+.blog-card-info h3{
+    color: gray;
+}
+
+.blog-card-info h1 a{
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.blog-card-info h1 a:hover{
+    color: rgb(199, 170, 8);
+}
+
+.blog-card-info p{
+    width: 90%;
+    margin: 0;
+    padding: 0;
 }

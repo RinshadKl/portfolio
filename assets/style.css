@@ -19,24 +19,10 @@ body{
     margin-top: 80px;
 }
 
-.main{
-    overflow-y: scroll;
-    background-color: rgb(45, 44, 44);
-    width: 940px;
-    height: 1380px;
-    padding: 25px;
-    border-radius: 50px;
-    float: right;
-}
-
-.main::-webkit-scrollbar{
-    display: none;
-}
-
 .fixed{
     background-color: rgb(45, 44, 44);
     width: 250px;
-    height: 650px;
+    height: 760px;
     padding: 25px;
     border-radius: 50px;
     position: fixed;
@@ -101,7 +87,7 @@ h5{
     padding: 0;
 }
 
-.mail{
+.details{
     line-height: 1px;
     width: 500px;
 }
@@ -124,6 +110,24 @@ a{
     background-color: rgb(19, 16, 16);
     padding: 10px;
     border-radius: 10px;
+}
+
+#codewithsadee{
+    text-align: center;
+}
+
+.main{
+    overflow-y: scroll;
+    background-color: rgb(45, 44, 44);
+    width: 940px;
+    height: 1380px;
+    padding: 25px;
+    border-radius: 50px;
+    float: right;
+}
+
+.main::-webkit-scrollbar{
+    display: none;
 }
 
 nav ul li a{
@@ -164,6 +168,8 @@ nav ul {
     border-bottom: 5px solid saddlebrown;
 }
 
+/*/ About me /*/
+
 #about{
     color: rgba(240, 248, 255, 0.582);
 }
@@ -172,6 +178,8 @@ nav ul {
     line-height: 30px;
     font-size: large;
 }
+
+/*/ Iam doing /*/
 
 .im-doing{
     font-size: large;
@@ -214,6 +222,8 @@ nav ul {
     margin-top: -10px;
     float: right;
 }
+
+/*/ testimonials /*/
 
 .testimonials-card-section{
     gap: 35px;
@@ -267,8 +277,9 @@ nav ul {
     margin-top: -10px;
 }
 
+/*/ clients /*/
+
 .clients img{
     width: 100%;
     border-radius: 25px;
 }
-

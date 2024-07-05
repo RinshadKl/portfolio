@@ -19,22 +19,17 @@ body{
     margin-top: 80px;
 }
 
-.main{
-    background-color: rgb(45, 44, 44);
-    width: 940px;
-    height: 1050px;
-    padding: 25px;
-    border-radius: 50px;
-    float: right;
-}
-
 .fixed{
     background-color: rgb(45, 44, 44);
     width: 250px;
-    height: 650px;
+    height: 760px;
     padding: 25px;
     border-radius: 50px;
     position: fixed;
+}
+
+#codewithsadee{
+    text-align: center;
 }
 
 #photo{
@@ -73,6 +68,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
+    max-width: 940px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -95,7 +91,7 @@ h5{
     padding: 0;
 }
 
-.mail{
+.details{
     line-height: 1px;
     width: 500px;
 }
@@ -118,6 +114,20 @@ a{
     background-color: rgb(19, 16, 16);
     padding: 10px;
     border-radius: 10px;
+}
+
+.main{
+    overflow-y: scroll;
+    background-color: rgb(45, 44, 44);
+    width: 940px;
+    height: 980px;
+    padding: 25px;
+    border-radius: 50px;
+    float: right;
+}
+
+.main::-webkit-scrollbar{
+    display: none;
 }
 
 nav ul li a{
@@ -162,3 +172,70 @@ nav ul {
     color: rgba(240, 248, 255, 0.582);
 }
 
+/*/ Contact /*/
+
+.contact-container{
+    max-width: 940px;
+}
+
+/*/ Map /*/
+
+.map-container iframe{
+    width: 100%;
+    opacity: 0.7;
+    height: 500px;
+    border-radius: 25px;
+}
+
+/*/ Message /*/
+
+.message-container{
+    max-width: 940px;
+    margin: 25px;
+}
+
+.details-container{
+    width: 100%;
+    gap: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.details-container input{
+    padding: 15px 100px;
+    background: none;
+    border-radius: 10px;
+    border: 1px solid skyblue;
+    text-align: center;
+} 
+
+.details-container input:hover{
+    border: 1px solid brown ;
+}
+
+.details-container textarea{
+    text-align: center;
+    padding: 15px 100px;
+    background: none;
+    border-radius: 10px;
+    border: 1px solid skyblue;
+} 
+
+.details-container textarea:hover{
+    border: 1px solid brown ;
+}
+
+.send-container{
+    max-width: 100%;
+    float: right;
+}
+
+.send-container button{
+    padding: 15px 100px;
+    background-color: rgb(99, 82, 47);
+    border-radius: 10px;
+    border: 1px solid rgb(57, 129, 158);
+    margin: 25px;
+} 
